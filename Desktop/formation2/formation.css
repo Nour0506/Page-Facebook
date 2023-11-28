@@ -1,0 +1,268 @@
+.title{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:100%;
+    height:80px;
+}
+.logo {
+    background-color: rgb(255, 255, 255);
+    width:200px;
+    height:80px;
+
+}
+.recherche {
+    background-color: rgb(255, 255, 255);
+    width:300px;
+    height:80px;
+}
+.menu{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width : 100%;
+    height:80px;}
+.publier{
+        background-color: rgb(255, 255, 255);
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 5px;
+        width : 100%;
+        height:80px; }
+
+.icon{
+    width : 100px;
+    height:60px;
+    padding-bottom:50px;
+
+}
+.imicon{
+    width : 60px;
+    height:40px;
+    padding-bottom:50px;
+
+}
+.profile {
+    position: relative;
+    display: flex;
+    width : 100px;
+    height:100px;
+}
+.improfile{
+    position:relative;
+    width :60px;
+    height:60px;
+    margin-left: -70px;
+    top:10px;
+    border-radius: 50%; 
+    background-color: rgb(202, 70, 70);
+    object-fit: cover;
+  
+}
+
+.home{
+    display: flex;
+    background-color: rgb(247, 239, 239);
+    width:80px;
+    height:80px;
+    margin-right: 150px;
+    margin-left: 10px;
+}
+.store{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width:80px;
+    height:80px;
+    margin-right: 150px;
+}
+.reel{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width:8px;
+    height:80px;
+    margin-right: 150px;
+}
+.bell{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width:80px;
+    height:80px;
+    margin-right: 150px;
+
+}
+.dec{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width:80px;
+    height:80px;
+}
+.imhome{
+    width: 80px;
+    height:80px;
+
+}
+.imreel{
+    width: 60px;
+    height:60px;
+    padding-top: 15px;
+
+}
+.iminv{
+    width: 80px;
+    height:80px;
+
+}
+.imstore{
+    width: 80px;
+    height:80px;
+
+}
+.imbell{
+    width: 80px;
+    height:80px;
+
+}
+.imdec{
+    width: 80px;
+    height:80px;
+
+}
+.imlogo {
+    width: 200px;
+    height: 80px;
+}
+.imrecherche {
+    width: 230px;
+    height: 80px;
+    padding-left:40px;}
+.pub {
+    width:100%;
+    height: 80px;
+    padding: 20px;
+    margin: 2px;
+    margin-top:0px ;
+    
+    }
+.impub{
+    display: flex;
+    width:60%px;
+    height: 20px;
+padding-bottom: 20px;
+border-radius: 2px;
+background-color: rgb(230, 234, 236);
+padding-top:5px ;
+padding-right: 80%;
+flex-direction: row;
+align-items: center;
+border-radius: 20px;
+}
+.ligne{
+    width:100%;
+    height: 0.09px;
+    background-color: rgb(209, 196, 196); 
+   
+}
+.stories{
+    display: flex;
+    background-color: #e6dddd;
+    padding: 10px;
+    width: 100%;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.story {
+    width: 160px;
+    height: 200px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+.story img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.story p {
+    font-size: 14px;
+    font-weight: bold;
+}
+.acceuil{
+    overflow-y: scroll;
+    height: 100%px;
+    width: 100%px;
+
+}
+*::placeholder{
+    font-size: 16px;
+    color: rgb(110, 108, 108);
+    position: relative;
+    left: 30px;
+}
+.publication img {
+    width: 350px;
+    height: 350px;
+    margin-left: 200px;
+
+}
+.nomuti img{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+    border-radius:50%; 
+    object-fit: cover;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.img1{
+    height: 10px;
+    width: 10px;}
+.nomuti p{
+    margin-top: 30px;
+    margin-right:1000px;
+    font-size: 20px;
+}
+.nomuti{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: row;
+
+    width:100%;
+    height:80px;  
+}
+.opinion{
+    background-color: rgb(255, 255, 255);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    height:80px;    
+}
+.liker{
+    width: 40px;
+    height:20px; 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.commenter{
+    width:40px;
+    height:20px;  
+}
+.share{
+    width:60px;
+    height:40px;}
+
+
+
